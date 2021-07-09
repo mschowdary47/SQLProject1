@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 
 SELECT D.Name AS Department, E.Name AS Employee, E.Salary AS Salary 
 FROM Employee E INNER JOIN Department D ON E.DepartmentId = D.Id 
